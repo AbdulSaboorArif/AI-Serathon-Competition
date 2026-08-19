@@ -61,7 +61,7 @@ export default function Home() {
       };
       setMessages((prev) => [...prev, errorMessage]);
       setError(
-        "Could not reach the backend. Start your FastAPI server and retry.",
+        "AI Seerat Chatbot need Api Key to use AI Agents",
       );
     } finally {
       setIsLoading(false);
